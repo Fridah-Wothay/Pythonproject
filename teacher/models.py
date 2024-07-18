@@ -15,4 +15,4 @@ class Teacher(models.Model):
     teaching_hours = models.PositiveSmallIntegerField()
 
     def __str__(self):
-        return f"{self.first_name} {self.last_name}" c
+        return "f{self.first_name} {self.last_name}" 

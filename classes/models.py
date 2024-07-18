@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Class(models.Model):
+class Classes(models.Model):
       educational_resources = models.CharField(max_length = 20)
       tables = models.PositiveSmallIntegerField()
       chairs = models.CharField(max_length = 20)
